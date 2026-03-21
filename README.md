@@ -1,5 +1,11 @@
 # 短视频文案提取器
 
+> 📝 **Fork 说明**: 本项目从 [yzfly/douyin-mcp-server](https://github.com/yzfly/douyin-mcp-server) Fork 而来，主要修改：
+> - 将语音识别从阿里云百炼迁移到 **硅基流动 (SiliconFlow)**
+> - 统一使用 `FunAudioLLM/SenseVoiceSmall` 模型
+> - MCP/CLI/WebUI 三者使用相同的 API 提供商
+> - 移除 `dashscope` 依赖，简化配置
+
 [![PyPI version](https://badge.fury.io/py/douyin-mcp-server.svg)](https://badge.fury.io/py/douyin-mcp-server)
 [![Python version](https://img.shields.io/pypi/pyversions/douyin-mcp-server.svg)](https://pypi.org/project/douyin-mcp-server/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -8,9 +14,11 @@
 
 ![WebUI 界面预览](douyin-video.png)
 
+<!-- 原项目徽章，如需可取消注释
 <a href="https://glama.ai/mcp/servers/@yzfly/douyin-mcp-server">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@yzfly/douyin-mcp-server/badge" alt="douyin-mcp-server MCP server" />
 </a>
+-->
 
 ## ✨ 功能特性
 
@@ -40,7 +48,7 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/yzfly/douyin-mcp-server.git
+git clone https://github.com/clawsu/douyin-mcp-server.git
 cd douyin-mcp-server
 
 # 2. 安装依赖
@@ -140,7 +148,7 @@ Claude：我来帮你提取视频文案...
 ### 安装
 
 ```bash
-git clone https://github.com/yzfly/douyin-mcp-server.git
+git clone https://github.com/clawsu/douyin-mcp-server.git
 cd douyin-mcp-server
 uv sync
 ```
@@ -263,4 +271,4 @@ Apache License 2.0
 
 ## 👨‍💻 作者
 
-**yzfly** - [GitHub](https://github.com/yzfly) | [Email](mailto:yz.liu.me@gmail.com)
+**clawsu** - [GitHub](https://github.com/clawsu) (Forked from [yzfly](https://github.com/yzfly/douyin-mcp-server))
