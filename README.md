@@ -78,7 +78,7 @@ export API_KEY="sk-xxxxxxxxxxxxxxxx"
 uv run python web/app.py
 ```
 
-> 💡 获取免费 API Key：[硅基流动](https://cloud.siliconflow.cn/i/TxUlXG3u)（新用户有免费额度）
+> 💡 获取免费 API Key：[硅基流动](https://cloud.siliconflow.cn/i/gQyYHEYB)（新用户有免费额度）
 
 ### 功能说明
 
